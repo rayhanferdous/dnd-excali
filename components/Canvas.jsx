@@ -157,7 +157,7 @@ export default function Canvas() {
 
     return (
         <Stage
-            width={window.innerWidth}
+            width={window.innerWidth - 100}
             height={window.innerHeight}
             onMouseDown={handleMouseDown}
             onMousemove={handleMouseMove}
